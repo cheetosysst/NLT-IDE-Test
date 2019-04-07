@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./css/mainTextArea.css">
+		<link rel="stylesheet" type="text/css" href="./css/body.css">
+		<link rel="stylesheet" type="text/css" href="./css/sidebar.css">
+		<script type="text/javascript" src="./js/sidebar.js"></script>
+		<title>NLT - IDE</title>
+	</head>
+	<body class="main">
+		<div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+		<textarea class="mainTextArea" name="mainTextArea" autofocus="true" spellcheck="true"></textarea>
+		<span onclick="openNav()">open</span>
+
+		<script>
+			// You can also require other files to run in this process
+			require('./renderer.js')
+		</script>
+	</body>
+</html>
