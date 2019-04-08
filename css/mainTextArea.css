@@ -1,8 +1,8 @@
 .mainTextArea {
-	width: calc(100vw-20px);
+	width: calc(100vw - 5px);
 	height: calc(100vh - 30px);
-	margin-left: 30px;
 	margin-top: 10px;
+	margin-left: 5px;
 	resize: none;
 	overflow: visible;
 	word-wrap: break-word;
@@ -11,11 +11,10 @@
 	color: #f6f8f1;
 	outline: none;
 	background: transparent;
-	font-size: 14pt;
+	font-size: 12pt;
 	transition: border-left 0.4s;
 }
 
 .mainTextArea:focus {
-	border-left: 3px solid #8c8d90;
 	transition: border 0.4s ease;
 }
